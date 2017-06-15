@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>IST 400 | Advanced Web Design | Lab 5</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+		
+		<header class="main-header">
+			<h1>IST 400</h1>
+			
+			<nav class="navigation">
+				<h1>Main Navigation Menu</h1>
+				<ul>
+					<li>
+						<a href="#slides">Home</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	
+		<section id="slides" class="main-section">		
+			<article>
+				<img src="img/one.jpg" alt="Image One" />
+				<h1>Lorem ipsum dolor sit amet, consectetur elit</h1>
+			</article>
+			
+			<article>
+				<img src="img/two.jpg" alt="Image Two" />
+				<h1>Maecenas viverra laoreet ullamcorper</h1>
+			</article>
+			
+			<article>
+				<img src="img/three.jpg" alt="Image Three" />
+				<h1>Donec magna nunc, mattis a porttitor et</h1>
+			</article>
+			
+			<article>
+				<img src="img/four.jpg" alt="Image Four" />
+				<h1>Etiam condimentum leo a massa</h1>
+			</article>
+		</section>
+		
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/jQuery.headroom.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+		<script src="js/scrollClass.min.js"></script>	
+		<script>
+			
+			$(function() {
+				
+				
+				$('#slides').slick({
+					arrows: false,
+					dots: true,
+					autoplay: true,
+					autoplaySpeed: 4000,
+					pauseOnHover: false
+				});
+				
+				
+				
+			
+				
+				
+			});
+        </script>
+    </body>
+</html>
